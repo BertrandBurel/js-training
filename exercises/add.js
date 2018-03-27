@@ -5,7 +5,9 @@
  *
  * @notions Primitive and Operators, Functions
  */
-
+function add(a, b) {
+    return a + b;
+}
 // Your code :
 
 //* Begin of tests

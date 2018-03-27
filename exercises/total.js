@@ -5,7 +5,15 @@
  * and return it's total
  *
  */
-
+function total(tab) {
+    let i = 0;
+    let sum = 0;
+    while (i < tab.length) {
+        sum = sum + tab[i];
+        i++;
+    }
+    return sum;
+}
 
 //* Begin of tests
 const assert = require('assert')
