@@ -18,7 +18,7 @@ function jadenCase(string) {
         result.push(sentence[index].toUpperCase());
         upper = false;
       } else {
-        result.push(sentence[index]);
+        result.push(sentence[index].toLowerCase());
         if (sentence[index] == ' '){
           upper = true;
         }
