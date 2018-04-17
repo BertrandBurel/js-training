@@ -7,6 +7,15 @@
  * Of course you may not use the method directly
  *
  */
+function repeat(str, num) {
+  let value = "";
+  let i = 0;
+  while (i < num) {
+    value = value + str;
+    i += 1;
+  }
+  return value;
+}
 
 //* Begin of tests
 const assert = require('assert')
